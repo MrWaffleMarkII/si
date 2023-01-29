@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html xmnls:th="http://www.thymeleaf.org">
+    <head>
+        <title>Listado</title>
+      
+        <meta charset="UTF-8">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" th:href="@{/estilo.css}"  type="text/css"/>
+  
+
+  
+</head>
+<body>
+<section>
+
+
+
+
+<section>
+<div class= "Titulo">
+
+<img src="https://www.pngplay.com/wp-content/uploads/11/Nier-Automata-PNG-HD-Images.png" alt="9s" >
+
+</div>
+
+ <section>
+     
+      
+ <div class= "texto"><div class="Arriba"> !MumBurritoGamer!</div>
+ 
+
+
+
+     <h1 sec:authorize="isAuthenticated()" class="display-4">Muy buenas, <span sec:authentication="name"></span></h1>
+        
+     
+     
+    
+     
+    
+<div class= "subtitulo"> Gamer de League of Legends, Fortnite, Call of Duty, Nier Automata entre otros :3</div>
+</div>
+
+ </section>
+
+</section>
+
+<section>
+
+
+<div class= "Ventana"><div class="descripcion"> Raimbow six siege</div>
+<div class="textouwur"> Tom Clancy's Rainbow Six: Siege es un videojuego de disparos táctico en línea desarrollado por Ubisoft Montreal y distribuidor por Ubisoft. Salió a la venta en todo el mundo para Microsoft Windows, PlayStation 4 y Xbox One el 1 de diciembre de 2015 y para PlayStation 5 y Xbox Series X|S el 1 de diciembre de 2020. El juego pone mucho énfasis en la destrucción del entorno y en la cooperación entre los jugadores.</div>
+
+<div class= "video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xKrNDV4yG6Q?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+</div>
+
+
+
+</section>
+
+ <a th:href="@{/home/nuevo}" class="btn btn-primary btn-sm mb3">Agregar</a>
+ <a th:href="@{/home/iniciar}" class="btn btn-primary btn-sm mb3">iniciar sesion</a>
+
+<div class="cont"><div class= "loco">
+
+<a href="https://www.youtube.com/channel/UC-wq35Wkr_NMzFbHWVmLAPA"></a>
+    </div>
+<div class= "twitch">
+  
+<a href="https://www.twitch.tv/mumburritovll">  </a>
+
+ </div>
+
+<div class ="face">
+
+<a href="https://www.facebook.com/profile.php?id=100088268685303"></a>
+
+ 
+           
+</div>
+
+
+
+</div>
+
+        
+
+
+
+</section>
+
+
+
+    
+</body>
+</html>
